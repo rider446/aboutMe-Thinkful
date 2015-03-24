@@ -1,0 +1,351 @@
+.content-footer,
+
+.masthead-heading,
+
+.masthead-intro {
+
+    text-align: center;
+
+}
+
+
+
+body {
+
+
+    background-image: url('http://i.imgur.com/zmYXfkH.jpg');
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    /* Typography Declarations */
+
+    color: #F4F4F4;
+
+    font-size: 1em;
+
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+
+
+
+}
+
+
+
+nav {
+
+    padding-left: 2em;
+
+    height: 2.5em;
+
+    margin-left: -.45em;
+
+    background: rgba(204, 204, 204, 0.5);
+
+    margin-right: -.45em;
+
+    margin-top: -15px;
+
+
+}
+
+
+
+nav > ul > li > a {
+
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+
+    text-decoration: none;
+
+    font-size: 1.5em;
+
+    font-weight: 700;
+
+    color: ghostwhite;
+
+    text-shadow: 2px 2px #BBB6B6;
+
+
+
+
+}
+
+
+
+.navLinks {
+
+    padding-top: 6px;
+
+    width: 5em;
+
+}
+
+
+
+a:link {
+
+    text-decoration: none;
+
+}
+
+
+
+a:visited {
+
+    text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+    color: #222222;
+    text-shadow: 2px 2px #BBB6B6;
+}
+
+}
+
+
+
+a:active {
+
+    text-decoration: underline;
+
+}
+
+
+
+.masthead {
+
+    padding: 0;
+
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.masthead-intro {
+
+    margin-bottom: 0.1em;
+
+    font-family: "Gentium Book Basic", Georgia, serif;
+
+    font-size: 2em;
+
+    color: #222222;
+
+    clear: both;
+
+    padding-top: 50px;
+
+}
+
+
+
+.masthead-heading {
+
+    margin-top: -0.2em;
+
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+
+    font-weight: bold;
+
+    font-size: 6em;
+
+    letter-spacing: -0.02em;
+
+    text-transform: uppercase;
+
+    color: #222222;
+
+    text-shadow: 2px 2px #BBB6B6;
+
+}
+
+
+
+
+
+.intro-section,
+
+.location-section,
+
+.questions-section {
+
+    max-width: 50em;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding: 2em;
+
+    opacity: .95;
+
+    -moz-box-shadow:    0px 3px 7px 7px #1D1F20;
+
+    -webkit-box-shadow: 0px 3px 7px 7px #1D1F20;
+
+    box-shadow:         0px 3px 7px 7px #1D1F20;
+
+    border-radius: 10px;
+
+}
+
+
+
+.intro-section {
+
+    background-color: #005C93;
+
+    margin-top: 600PX;
+
+    margin-bottom: 44px;
+
+}
+
+
+
+.location-section {
+
+    background-color: #1696D0;
+
+    margin-bottom: 44px;
+
+}
+
+
+
+.questions-section {
+
+    background-color: #707A8B;
+
+}
+
+
+
+.content-footer {
+
+    background-color: #1C80B7;
+
+    height: 170px;
+
+    margin-top: 40px;
+
+    background: rgba(204, 204, 204, 0.5);
+
+}
+
+
+
+.content-footer > p {
+
+
+
+}
+
+
+
+ul {
+
+    width: 100%;
+
+    padding: 0;
+
+}
+
+
+
+li {
+
+    float: left;
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    width: 20%;
+
+}
+
+
+
+.intro-section > p,
+
+.location-section > p,
+
+.content-footer > p {
+
+    /* Typography Declarations */
+
+    font-weight: 300;
+
+    letter-spacing: 0.05em;
+
+}
+
+
+
+.questions-section > h2 {
+
+    /* Typography Declarations */
+
+    font-family: "Gentium Book Basic", Georgia, serif;
+
+    font-size: 1.2em;
+
+    font-weight: bold;
+
+    color: #0B0779;
+
+}
+
+
+
+.projects {
+
+    max-width: 90%;
+
+    padding: 0 10% 200px 10%;
+
+}
+
+
+
+.projects > h2 {
+
+    margin-left: 2em;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .masthead-heading {
+        font-size: 4em;
+    }
+    
+    .navLinks {
+        font-size: 1.25em
+    }
+
+    nav {
+        height: 3.25em;
+    }
+    
+    .intro-section {
+        margin-top: 100px;
+    }
+}
